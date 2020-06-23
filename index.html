@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW4</title>
+    <link rel="stylesheet" href="./Developer/css/style.css">
+</head>
+<body>
+    <!-- Need set attribute link if I click high score -->
+    <div class="high-score"> <a href="highsore.html">View high score</a></div>
+   <div class="time-left">Time:<span id="time">0</span></div>
+    <div class="wrapper">
+            <div class="h1">
+                <h1> Coding Quiz Challenge </h1>
+            </div>
+            <p>Try to answer the following code-related questions within the time 
+                limit. Keep in mind that incorrect answers will penalize your 
+                score/time by ten seconds!</p>
+            <!-- Using a href to link to the quetsion html, when its done it will navigate to the highscore html -->
+                <button id="start-quiz"><a class="startBtn" href="questions.html">Start Quiz</a></button>   
+    </div>
+    
+
+
+<script src="./js/game.js"></script>
+<script src="./js/questions.js"></script>
+
+</body>
+</html>
